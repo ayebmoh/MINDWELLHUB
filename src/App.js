@@ -20,7 +20,6 @@ import ER from "./components/pages/ER";
 import RC from "./components/pages/RC";
 import Navbar from "./components/Navbar/Navbar";
 import Podcasts from "./components/pages/Podcasts";
-import Chat from "./components/chatbot/chatbot";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,7 +27,6 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="contact" element={<Contact />} />
       <Route path="podcasts" element={<Podcasts />} />
-      <Route path="chat" element={<Chat />} />
       <Route path="Steps">
         <Route index element={<Steps />} />
         <Route path="personal_info" element={<Pi />} />
