@@ -23,7 +23,7 @@ import Podcasts from "./components/pages/Podcasts";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/">
+    <Route path="https://mindwellhub.netlify.app">
       <Route index element={<Home />} />
       <Route path="contact" element={<Contact />} />
       <Route path="podcasts" element={<Podcasts />} />
