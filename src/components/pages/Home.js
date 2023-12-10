@@ -11,10 +11,10 @@ const Home = () => {
           transition={{ duration: 0.5, delay: 0 * 0.4 }}
           className="mr-auto place-self-center lg:col-span-7"
         >
-          <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+          <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
             Student Mental Health, Well-being, and Academic Performance
           </h1>
-          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+          <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-400">
             Dear Student,
             <br />
             Greetings from the University Board! We're excited to introduce our
@@ -47,7 +47,7 @@ const Home = () => {
           </a>
           <a
             href="contact"
-            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border rounded-lg  focus:ring-4 text-white border-gray-700 hover:bg-gray-700 focus:ring-gray-800"
           >
             Your Safe-Place!
           </a>
@@ -56,7 +56,7 @@ const Home = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 1 * 0.4 }}
-          className="hidden lg:mt-0 lg:col-span-5 lg:flex"
+          className="lg:mt-0 lg:col-span-5 lg:flex"
         >
           <img src="/images/homelog.png" alt="mockup" />
         </motion.div>

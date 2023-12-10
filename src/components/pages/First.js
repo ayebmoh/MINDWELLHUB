@@ -3,7 +3,7 @@ const Steps = () => {
   return (
     <div>
       <div className="min-h-screen flex items-center justify-center">
-        <div className="dark:bg-gray-700 p-8 rounded-lg shadow-lg max-w-md sm:w-full">
+        <div className="bg-gray-700 p-8 rounded-lg shadow-lg max-w-md sm:w-full">
           <h1 className="text-xl text-white font-semibold mb-4">
             Please enter your Email
           </h1>

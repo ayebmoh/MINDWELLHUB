@@ -7,41 +7,41 @@ const Pha2 = () => {
 
       {/* sleep changes */}
       <div className=" flex flex-col items-center justify-center  ">
-        <h3 className="mb-4 font-semibold text-gray-900 dark:text-white mt-20 text-2xl text-center">
+        <h3 className="mb-4 font-semibold  dark:text-white mt-20 text-2xl text-center">
           Have you noticed any changes in your sleep patterns that may be
           related to your emotional state ?
         </h3>
-        <ul className="w-4/5 mt-8 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <ul className="w-4/5 mt-8 text-sm font-medium   border  rounded-lg sm:flex bg-gray-700 border-gray-600 text-white">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="Yes"
                 type="radio"
                 value="Yes"
                 name="Sch"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  focus:ring-blue-600 ring-offset-gray-700 focus:ring-offset-gray-700 focus:ring-2 bg-gray-600 border-gray-500"
               />
               <label
                 htmlFor="Yes"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  text-gray-300"
               >
                 Yes
               </label>
             </div>
           </li>
 
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="No"
                 type="radio"
                 value="No"
                 name="Sch"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  focus:ring-blue-600 ring-offset-gray-700 focus:ring-offset-gray-700 focus:ring-2 bg-gray-600 border-gray-500"
               />
               <label
                 htmlFor="No"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  text-gray-300"
               >
                 No
               </label>
@@ -52,41 +52,41 @@ const Pha2 = () => {
 
       {/* Eating Habits */}
       <div className=" flex flex-col items-center justify-center  ">
-        <h3 className="mb-4 font-semibold text-gray-900 dark:text-white mt-20 text-2xl text-center">
+        <h3 className="mb-4 font-semibold  text-white mt-20 text-2xl text-center">
           How would you describe your eating habits? Do you eat in a balanced
           way?
         </h3>
-        <ul className="w-4/5 mt-8 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <ul className="w-4/5 mt-8 text-sm font-medium   border  rounded-lg sm:flex bg-gray-700 border-gray-600 text-white">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="Yes"
                 type="radio"
                 value="Yes"
                 name="EH"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  focus:ring-blue-600 ring-offset-gray-700 focus:ring-offset-gray-700 focus:ring-2 bg-gray-600 border-gray-500"
               />
               <label
                 htmlFor="Yes"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  text-gray-300"
               >
                 Yes
               </label>
             </div>
           </li>
 
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="No"
                 type="radio"
                 value="No"
                 name="EH"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  focus:ring-blue-600 ring-offset-gray-700 focus:ring-offset-gray-700 focus:ring-2 bg-gray-600 border-gray-500"
               />
               <label
                 htmlFor="No"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  text-gray-300"
               >
                 No
               </label>
@@ -97,41 +97,41 @@ const Pha2 = () => {
 
       {/* AC */}
       <div className=" flex flex-col items-center justify-center  ">
-        <h3 className="mb-4 font-semibold text-gray-900 dark:text-white mt-20 text-2xl text-center">
+        <h3 className="mb-4 font-semibold  text-white mt-20 text-2xl text-center">
           Have you observed any changes in your appetite that might be linked to
           your emotional state?
         </h3>
-        <ul className="w-4/5 mt-8 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <ul className="w-4/5 mt-8 text-sm font-medium   border  rounded-lg sm:flex bg-gray-700 border-gray-600 text-white">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="Yes"
                 type="radio"
                 value="Yes"
                 name="AC"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  focus:ring-blue-600 ring-offset-gray-700 focus:ring-offset-gray-700 focus:ring-2 bg-gray-600 border-gray-500"
               />
               <label
                 htmlFor="Yes"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  text-gray-300"
               >
                 Yes
               </label>
             </div>
           </li>
 
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="No"
                 type="radio"
                 value="No"
                 name="AC"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  focus:ring-blue-600 ring-offset-gray-700 focus:ring-offset-gray-700 focus:ring-2 bg-gray-600 border-gray-500"
               />
               <label
                 htmlFor="No"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  text-gray-300"
               >
                 No
               </label>
@@ -142,91 +142,91 @@ const Pha2 = () => {
 
       {/* psc */}
       <div className="flex flex-col items-center justify-center  ">
-        <h3 className="mb-4 font-semibold text-gray-900 dark:text-white mt-20 text-2xl text-center">
+        <h3 className="mb-4 font-semibold  text-white mt-20 text-2xl text-center">
           How often do you partake in substance consumption, such as alcohol and
           tobacco?
         </h3>
-        <ul className="mt-8 w-4/5 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <ul className="mt-8 w-4/5 text-sm font-medium   border  rounded-lg sm:flex bg-gray-700 border-gray-600 text-white">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="Never"
                 type="radio"
                 value="Never"
                 name="psc"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  focus:ring-blue-600 ring-offset-gray-700 focus:ring-offset-gray-700 focus:ring-2 bg-gray-600 border-gray-500"
               />
               <label
                 htmlFor="Never"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  text-gray-300"
               >
                 Never
               </label>
             </div>
           </li>
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="Rarely"
                 type="radio"
                 value="Rarely"
                 name="psc"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  focus:ring-blue-600 ring-offset-gray-700 focus:ring-offset-gray-700 focus:ring-2 bg-gray-600 border-gray-500"
               />
               <label
                 htmlFor="Rarely"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  text-gray-300"
               >
                 Rarely
               </label>
             </div>
           </li>
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="Sometimes"
                 type="radio"
                 value="Sometimes"
                 name="Strepscss"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  focus:ring-blue-600 ring-offset-gray-700 focus:ring-offset-gray-700 focus:ring-2 bg-gray-600 border-gray-500"
               />
               <label
                 htmlFor="Sometimes"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  text-gray-300"
               >
                 Sometimes
               </label>
             </div>
           </li>
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="Often"
                 type="radio"
                 value="Often"
                 name="psc"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  focus:ring-blue-600 ring-offset-gray-700 focus:ring-offset-gray-700 focus:ring-2 bg-gray-600 border-gray-500"
               />
               <label
                 htmlFor="Often"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  text-gray-300"
               >
                 Often
               </label>
             </div>
           </li>
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="Always"
                 type="radio"
                 value="Always"
                 name="psc"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  focus:ring-blue-600 ring-offset-gray-700 focus:ring-offset-gray-700 focus:ring-2 bg-gray-600 border-gray-500"
               />
               <label
                 htmlFor="Always"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  text-gray-300"
               >
                 Always
               </label>
@@ -237,41 +237,41 @@ const Pha2 = () => {
 
       {/* pss */}
       <div className=" flex flex-col items-center justify-center  ">
-        <h3 className="mb-4 font-semibold text-gray-900 dark:text-white mt-20 text-2xl text-center">
+        <h3 className="mb-4 font-semibold  text-white mt-20 text-2xl text-center">
           Do you observe any physical symptoms (e.g., headaches, muscle tension)
           when you are stressed?
         </h3>
-        <ul className="w-4/5 mt-8 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <ul className="w-4/5 mt-8 text-sm font-medium   border  rounded-lg sm:flex bg-gray-700 border-gray-600 text-white">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="Yes"
                 type="radio"
                 value="Yes"
                 name="pss"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  focus:ring-blue-600 ring-offset-gray-700 focus:ring-offset-gray-700 focus:ring-2 bg-gray-600 border-gray-500"
               />
               <label
                 htmlFor="Yes"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  text-gray-300"
               >
                 Yes
               </label>
             </div>
           </li>
 
-          <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+          <li className="w-full border-b  sm:border-b-0 sm:border-r border-gray-600">
             <div className="flex items-center ps-3">
               <input
                 id="No"
                 type="radio"
                 value="No"
                 name="pss"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                className="w-4 h-4 text-blue-600  dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
               />
               <label
                 htmlFor="No"
-                className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="w-full py-3 ms-2 text-sm font-medium  dark:text-gray-300"
               >
                 No
               </label>

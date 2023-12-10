@@ -3,11 +3,11 @@ import React from "react";
 function Dropmen() {
   return (
     <div className="w-full" id="navbar-hamburger">
-      <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+      <ul className="flex flex-col font-medium mt-4 rounded-lg dark:bg-gray-800 dark:border-gray-700">
         <li>
           <a
             href="/"
-            className="block py-2 px-3 text-gray-900 hover:bg-gray-100 rounded dark:text-gray-400 dark:hover:bg-blue-700 dark:hover:text-white"
+            className="block py-2 px-3 text-gray-400 hover:bg-blue-700 rounded dark:text-gray-400 dark:hover:bg-blue-700 dark:hover:text-gray-400"
             aria-current="page"
           >
             Home
@@ -18,7 +18,7 @@ function Dropmen() {
             href="https://enit.ieee.tn/?fbclid=IwAR26qvyV2XVjlfoJsLM8mphBfROh27N1GUVw0kJmcbB8Ueg-kmB9k9lK4lk"
             target="_blank"
             rel="noreferrer"
-            className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-blue-700 dark:hover:text-white"
+            className="block py-2 px-3 text-gray-400 hover:bg-blue-700 rounded dark:text-gray-400 dark:hover:bg-blue-700 dark:hover:text-gray-400"
           >
             About
           </a>
@@ -28,7 +28,7 @@ function Dropmen() {
             href="/podcasts"
             target="_blank"
             rel="noreferrer"
-            className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-blue-700 dark:hover:text-white"
+            className="block py-2 px-3 text-gray-400 hover:bg-blue-700 rounded dark:text-gray-400 dark:hover:bg-blue-700 dark:hover:text-gray-400"
           >
             Podcasts
           </a>
