@@ -7,7 +7,7 @@ const Pha2 = () => {
 
       {/* sleep changes */}
       <div className=" flex flex-col items-center justify-center  ">
-        <h3 className="mb-4 font-semibold  dark:text-white mt-20 text-2xl text-center">
+        <h3 className="mb-4 font-semibold text-white mt-20 text-2xl text-center">
           Have you noticed any changes in your sleep patterns that may be
           related to your emotional state ?
         </h3>
